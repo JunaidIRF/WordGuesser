@@ -1,0 +1,91 @@
+  AccountForm.resources - Embedded, ContainedInManifestFile, 
+  ChallengesForm.resources - Embedded, ContainedInManifestFile, 
+  GameForm.resources - Embedded, ContainedInManifestFile, 
+  LeaderboardForm.resources - Embedded, ContainedInManifestFile, 
+  LoginForm.resources - Embedded, ContainedInManifestFile, 
+  MainForm.resources - Embedded, ContainedInManifestFile, 
+  MenuForm.resources - Embedded, ContainedInManifestFile, 
+  MilestonesForm.resources - Embedded, ContainedInManifestFile, 
+  PlayForm.resources - Embedded, ContainedInManifestFile, 
+  ResultForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly WordGuesser, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Navigation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel mainPanel : Public, Static
+    System.String username : Public, Static
+    Int32 difficulty : Public, Static
+    Int32 challenge : Public, Static
+    Int32 totalScore : Public, Static
+    Int32 Score : Public, Static
+    Int32 maxCombo : Public, Static
+    Boolean challengeDone : Public, Static
+    Boolean gaveUp : Public, Static
+    System.Media.SoundPlayer soundPlayer : Public, Static
+    System.Action LoadLoginForm : Public, Static
+    System.Action LoadMenuForm : Public, Static
+    System.Action LoadPlayForm : Public, Static
+    System.Action LoadLeaderboardForm : Public, Static
+    System.Action LoadGameForm : Public, Static
+    System.Action LoadResultForm : Public, Static
+    System.Action LoadAccountForm : Public, Static
+    System.Action LoadChallengesForm : Public, Static
+    System.Action LoadMilestonesForm : Public, Static
+  Methods:
+    LoadForm(Form): PrivateScope, Public, Static, HideBySig
+Class MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PlayForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class LeaderboardForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GameForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ResultForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AccountForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ChallengesForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class MilestonesForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel mainPanel : Public
+  Methods:
+    OpenLoginForm(): PrivateScope, Public, Static, HideBySig
+    OpenMenuForm(): PrivateScope, Public, Static, HideBySig
+    OpenPlayForm(): PrivateScope, Public, Static, HideBySig
+    OpenLeaderboardForm(): PrivateScope, Public, Static, HideBySig
+    OpenGameForm(): PrivateScope, Public, Static, HideBySig
+    OpenResultForm(): PrivateScope, Public, Static, HideBySig
+    OpenAccountForm(): PrivateScope, Public, Static, HideBySig
+    OpenChallengesForm(): PrivateScope, Public, Static, HideBySig
+    OpenMilestonesForm(): PrivateScope, Public, Static, HideBySig

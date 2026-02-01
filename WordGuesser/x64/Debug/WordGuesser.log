@@ -1,0 +1,21 @@
+﻿  main.cpp
+F:\Coding\Cpp\WordGuesser\WordGuesser\LeaderboardForm.h(264,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Coding\Cpp\WordGuesser\WordGuesser\LeaderboardForm.h(303,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Coding\Cpp\WordGuesser\WordGuesser\GameForm.h(591,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Coding\Cpp\WordGuesser\WordGuesser\AccountForm.h(400,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Coding\Cpp\WordGuesser\WordGuesser\AccountForm.h(458,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  utils.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  WordGuesser.vcxproj -> F:\Coding\Cpp\WordGuesser\x64\Debug\WordGuesser.exe
