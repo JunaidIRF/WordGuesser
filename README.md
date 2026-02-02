@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-Guess any valid dictionary word that matches the pattern — given a starting letter, ending letter, and word length (e.g., `S _ _ _ E` → "SMILE", "SLOPE", etc.).
+Guess any valid dictionary word that matches the pattern — given a starting letter, ending letter, and word length (e.g., <code>S _ _ _ E</code> → "SMILE", "SLOPE", etc.).
 </p>
 
 ## ✨ Features
