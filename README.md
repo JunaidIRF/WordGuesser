@@ -38,7 +38,7 @@ Guess any valid dictionary word that matches the pattern — given a starting le
 
 ### Installation
 
-1. Download the latest release from [**Releases**](https://github.com/JunaidIRF/WordGuesser/releases)
+1. Download the latest release from [**Releases**](https://github.com/JunaidIRF/WordGuesser/releases/latest)
 2. Extract the zip file
 3. Run `fonts\install.bat` to install required fonts
 4. Launch `WordGuesser.exe`
