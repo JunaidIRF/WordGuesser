@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-Guess any valid dictionary word that matches the pattern — given a starting letter, ending letter, and word length (e.g., <code>S _ _ _ E</code> → "SMILE", "SLOPE", etc.).
+Guess any valid dictionary word that matches the pattern — given a starting letter, ending letter, and word length (e.g., `S _ _ _ E` → "SMILE", "SLOPE", etc.).
 </p>
 
 ## ✨ Features
@@ -38,10 +38,11 @@ Guess any valid dictionary word that matches the pattern — given a starting le
 
 ### Installation
 
-1. Download the latest release from [**Releases**](https://github.com/JunaidIRF/WordGuesser/releases/latest)
-2. Extract the zip file
-3. Run `fonts\install.bat` to install required fonts
-4. Launch `WordGuesser.exe`
+1. Download and install [**Visual C++ Redistributable**](https://aka.ms/vs/17/release/vc_redist.x64.exe) (if not already installed)
+2. Download the latest release from [**Releases**](https://github.com/JunaidIRF/WordGuesser/releases/latest)
+3. Extract the zip file
+4. Run `fonts\install.bat` to install required fonts
+5. Launch `WordGuesser.exe`
 
 ### How to Play
 
@@ -71,7 +72,9 @@ Guess any valid dictionary word that matches the pattern — given a starting le
 
 ## 📋 Requirements
 
-- Windows OS
+- Windows OS (64-bit)
+- [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer) (pre-installed on Windows 10 build 1803+)
+- [Visual C++ Redistributable 2015-2022](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ## 📝 License
 
